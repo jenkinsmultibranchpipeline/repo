@@ -13,7 +13,10 @@ pipeline {
         // }
         stage('Test') {
             steps {
-		sh 'npm install'
+		sh 'pwd'
+		echo '#############################################'
+		sh 'ls'
+		echo '#############################################'
                 sh 'npm run test'
             }
         }
