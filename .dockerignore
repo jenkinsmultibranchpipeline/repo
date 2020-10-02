@@ -1,0 +1,9 @@
+node_modules
+public
+.credentials
+.gitignore
+.Jenkinsfile
+juit.xml
+README.md
+.git
+.cache
